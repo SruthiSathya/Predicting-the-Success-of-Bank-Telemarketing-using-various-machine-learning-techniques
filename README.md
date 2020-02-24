@@ -25,7 +25,7 @@ This repository contains a python class to predict the success of Bank Telemarke
 14. Lasso
 15. BernoulliNB
 
-## Metrics in the result:
+## Result metrics:
 
 1. classification_report
 2. confusion_matrix
