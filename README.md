@@ -1,4 +1,12 @@
 # Predicting-the-Success-of-Bank-Telemarketing-using-various-machine-learning-techniques
+
+## Classification goal:
+The data is related with direct marketing campaigns (phone calls) of a Portuguese banking institution. The classification goal is to predict if the client will subscribe a term deposit.
+
+## Source of the dataset:
+The dataset was taken from the UCI repository.
+ 
+## Process description:
 This repository contains a python class to predict the success of Bank Telemarketing using the following Machine Learning techniques with the incorporation of dimensionality reduction techniques (the user gets to choose it):
 
 1. LogisticRegression
@@ -17,10 +25,9 @@ This repository contains a python class to predict the success of Bank Telemarke
 14. Lasso
 15. BernoulliNB
 
-And displaying the following metircs 
+## Metrics in the result:
 
 1. classification_report
 2. confusion_matrix
 3. accuracy_score
 4. roc_auc_score
- 
