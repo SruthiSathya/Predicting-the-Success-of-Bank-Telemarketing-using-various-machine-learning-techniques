@@ -1,7 +1,7 @@
 # Predicting-the-Success-of-Bank-Telemarketing-using-various-machine-learning-techniques
 
 ## Classification goal:
-Data from the direct marketing campaigns (phone calls) of a Portuguese banking institution were collected and the classification goal is to predict if the client will subscribe a term deposit.
+Data from the direct marketing campaigns (phone calls) of a Portuguese banking institution were collected and the classification goal is to predict if the client will subscribe to a term deposit.
 
 ## Source of the dataset:
 The dataset was taken from the UCI repository.
