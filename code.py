@@ -19,6 +19,7 @@ from sklearn.ensemble import ExtraTreesClassifier
 from sklearn.linear_model import RidgeClassifier
 from sklearn.linear_model import Lasso
 from sklearn.naive_bayes import BernoulliNB
+from sklearn.ensemble import RandomForestRegressor
 
 from sklearn.metrics import classification_report
 from sklearn.metrics import confusion_matrix
@@ -38,7 +39,8 @@ class predictor():
                        AdaBoostClassifier(),RandomForestClassifier(),
                        BaggingClassifier(), MLPClassifier(),
                        GradientBoostingClassifier(), ExtraTreesClassifier(),
-                       BernoulliNB(), RidgeClassifier(), Lasso()     
+                       BernoulliNB(), RidgeClassifier(), Lasso(),
+                       RandomForestRegressor(n_estimators = 100,random_state = 42)
                        ]
         self.path = r'C:\Users\WINDOWS\Desktop\HobbyProjects\bank.csv'
         self.cat_cols = ['job','marital','education','default','housing','loan','contact','month','poutcome','y']
