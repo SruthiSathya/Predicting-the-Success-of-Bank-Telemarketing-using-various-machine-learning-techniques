@@ -24,6 +24,7 @@ This repository contains a python class to predict the success of Bank Telemarke
 13. RidgeClassifier
 14. Lasso
 15. BernoulliNB
+16. RandomForestRegressor
 
 ## Result metrics:
 
